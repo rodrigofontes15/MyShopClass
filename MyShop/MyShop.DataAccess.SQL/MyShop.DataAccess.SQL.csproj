@@ -49,11 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
-    <Compile Include="Migrations\201812181203008_Initial.cs" />
-    <Compile Include="Migrations\201812181203008_Initial.Designer.cs">
-      <DependentUpon>201812181203008_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,11 +60,6 @@
       <Project>{63846F2F-082D-46C4-81DB-3FA93D7C8BC3}</Project>
       <Name>MyShop.Core</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812181203008_Initial.resx">
-      <DependentUpon>201812181203008_Initial.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
